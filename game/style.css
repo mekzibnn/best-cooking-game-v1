@@ -1,0 +1,60 @@
+/* Dapur Senja — page styling. Warm warung palette: cream, terracotta, teal. */
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #2B1A0E;
+  color: #FFF3D6;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage {
+  width: min(1280px, 100vw);
+  padding: 12px;
+}
+
+.frame {
+  background: #3B2416;
+  border: 4px solid #8A5A2B;
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: #F7D9A0;
+  cursor: pointer;
+  touch-action: none;
+}
+
+.help {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  justify-content: center;
+  padding: 10px 4px 2px;
+  font-size: 14px;
+  color: #FFEFC2;
+}
+
+.help b { color: #F2B705; }
+
+.foot {
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #D9C1A3;
+  margin: 10px 8px 0;
+}
